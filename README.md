@@ -1,4 +1,10 @@
-# isomorphic-react-csjs-demo
+# *DEPRECATION NOTICE*
+
+Server-side rendering was introduced in [react-csjs v2.0.0][react-csjs-2.0.0],
+so the approach demonstrated in this project is no longer necessary. I'll leave
+it here for now, for historical purposes.
+
+## isomorphic-react-csjs-demo
 
 This is a demo of React server-side rendering with [react-csjs][react-csjs]. The
 interesting part is probably [serverSideRender.js](src/serverSideRender.js).
@@ -60,5 +66,6 @@ rendering and testing, but keep in mind this has nothing to do with server-side
 rendering and is solely for playing with the client.
 
 [react-csjs]: https://github.com/tizmagik/react-csjs
+[react-csjs-2.0.0]: https://github.com/tizmagik/react-csjs/releases/tag/v2.0.0
 [hd-project]: https://hyperdev.com/#!/project/luck-piper
 [hd-live]: https://luck-piper.hyperdev.space/
